@@ -1051,6 +1051,8 @@ footer {
     .three-sec{
         background-color: darkcyan;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
     
     .tittle-merch {
@@ -1379,7 +1381,7 @@ footer {
     }
     
     .cards {
-        height: 75%;
+        height: 100%;
         width: 95%;
         display: flex;
         align-items: center;
@@ -1388,7 +1390,7 @@ footer {
     }
     
     .card-reserva {
-        height: 40%;
+        height: 70%;
         width: 30%;
         background-color: rgba(127, 255, 212, 0.363);
         border: solid 1px rgba(255, 255, 255, 0.582);
@@ -1443,6 +1445,8 @@ footer {
     .three-sec{
         background-color: darkcyan;
         height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
     
     .tittle-merch {
@@ -1464,6 +1468,7 @@ footer {
         justify-content: center;
         gap: 0px;
         margin-top: 150px;
+        margin: 0;
 
     }
     
